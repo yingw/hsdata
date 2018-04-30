@@ -30,6 +30,7 @@ GLOBAL_BACK	Retour
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Voici de l’or en compensation des achats que vous avez effectués. Merci !	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Crédit de remise à zéro du compte	
+GLOBAL_BRAWLISEUM	Colisée	
 GLOBAL_BUTTON_AWESOME	Génial !	
 GLOBAL_BUTTON_NEXT	Suivant	
 GLOBAL_BUTTON_NO	Non	
@@ -45,6 +46,9 @@ GLOBAL_CARD_SET_GANGS	Main basse sur Gadgetzan
 GLOBAL_CARD_SET_GANGS_RESERVE	Réserve des gangs	
 GLOBAL_CARD_SET_GANGS_SEARCHABLE_SHORTHAND_NAMES	msg msog mbsg mbg gadgetzan	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_GANGS_SHORT	Gadgetzan	
+GLOBAL_CARD_SET_GILNEAS	Le Bois Maudit	
+GLOBAL_CARD_SET_GILNEAS_SEARCHABLE_SHORTHAND_NAMES	bm ww	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_GILNEAS_SHORT	Bois Maudit	
 GLOBAL_CARD_SET_GVG	Gobelins et Gnomes	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	G&G	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_HOF	Panthéon	
@@ -116,6 +120,8 @@ GLOBAL_DATETIME_AFK_MINUTES	Absent(e) depuis {0} |4(minute,minutes)
 GLOBAL_DATETIME_AFK_MONTH	Absent(e) depuis plus d’un mois	
 GLOBAL_DATETIME_AFK_SECONDS	Absent(e) depuis moins d’une minute	
 GLOBAL_DATETIME_AFK_WEEKS	Absent(e) depuis {0} |4(semaine,semaines)	
+GLOBAL_DATETIME_COMING_SOON	Prochainement	
+GLOBAL_DATETIME_COMING_SOON_WEEKS	Ouvre dans\n{0} |4(semaine,semaines)	
 GLOBAL_DATETIME_FRIENDREQUEST_DAY	hier	
 GLOBAL_DATETIME_FRIENDREQUEST_DAYS	il y a {0} |4(jour,jours)	
 GLOBAL_DATETIME_FRIENDREQUEST_HOURS	il y a {0} |4(heure,heures)	
@@ -145,6 +151,15 @@ GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0} |4(minute,minutes)
 GLOBAL_DATETIME_SPLASHSCREEN_MONTH	Plus de 1 mois	
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	Moins de 1 min	
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} |4(semaine,semaines)	
+GLOBAL_DATETIME_UNLOCKS_SOON_WEEKS	Débloqué dans {0} |4(semaine,semaines)	
+GLOBAL_DECK_SHARE_ACCEPT_REQUEST	Partager	
+GLOBAL_DECK_SHARE_DECLINE_REQUEST	Refuser	
+GLOBAL_DECK_SHARE_ERROR	Une erreur s’est produite lors du partage des decks.	
+GLOBAL_DECK_SHARE_HEADER	Partager des decks ?	
+GLOBAL_DECK_SHARE_REQUEST_CANCELED	{0} a annulé sa demande de partage de decks.	0=friend name
+GLOBAL_DECK_SHARE_REQUEST_DECLINED	{0} a rejeté votre demande de partage de decks.	0=friend name
+GLOBAL_DECK_SHARE_REQUEST_WAITING_RESPONSE	En attente de la réponse de {0} à votre demande de partage de decks.	
+GLOBAL_DECK_SHARE_REQUESTED	{0} veut emprunter un de vos decks.	0=friend name
 GLOBAL_DEFAULT_ALERT_HEADER	Alerte	
 GLOBAL_DEMO_COMPLETE_BODY	Merci d’avoir joué à cette démo de Hearthstone: Heroes of Warcraft !	
 GLOBAL_DEMO_COMPLETE_HEADER	Félicitations !	
@@ -330,6 +345,7 @@ GLOBAL_HERO_WINS_PAST_MAX_PHONE	Victoires\n{0}	0=number of games this class has 
 GLOBAL_HERO_WINS_PHONE	Victoires\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	Bras de fer héroïque	
 GLOBAL_HIDE	Masquer	
+GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	Gagnez encore {0} |4(match,matchs) pour obtenir votre coffre de saison !\n(Il sera débloqué le mois prochain.)	
 GLOBAL_JOIN	Rejoindre	
 GLOBAL_KEYWORD_ADAPT	Adaptation	
 GLOBAL_KEYWORD_ADAPT_TEXT	Choisissez un des 3 bonus.	
@@ -356,6 +372,8 @@ GLOBAL_KEYWORD_DISCOVER_TEXT	Choisissez l’une des trois cartes et ajoutez-la �
 GLOBAL_KEYWORD_DIVINE_SHIELD	Bouclier divin	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	La première fois qu’un serviteur protégé subit des dégâts, il les ignore.	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	La première fois que ce serviteur subit des dégâts, il les ignore.	
+GLOBAL_KEYWORD_ECHO	Écho	
+GLOBAL_KEYWORD_ECHO_TEXT	Répétable le tour où vous la jouez.	
 GLOBAL_KEYWORD_ENRAGED	Accès de rage	
 GLOBAL_KEYWORD_ENRAGED_TEXT	Quand il subit des dégâts, ce serviteur dispose d’un nouveau pouvoir.	
 GLOBAL_KEYWORD_FREEZE	Gel	
@@ -386,16 +404,19 @@ GLOBAL_KEYWORD_OVERLOAD	Surcharge : X
 GLOBAL_KEYWORD_OVERLOAD_REF_TEXT	Les cartes avec Surcharge réduisent vos cristaux de mana au prochain tour.	
 GLOBAL_KEYWORD_OVERLOAD_TEXT	Vous aurez X cristaux de mana en moins au prochain tour.	
 GLOBAL_KEYWORD_PASSIVE	Passif	
-GLOBAL_KEYWORD_PASSIVE_TEXT	Effet permanent pour la virée en donjon en cours.	
+GLOBAL_KEYWORD_PASSIVE_TEXT	Effet permanent pour la série en cours.	
 GLOBAL_KEYWORD_POISONOUS	Toxicité	
 GLOBAL_KEYWORD_POISONOUS_TEXT	Détruit tout serviteur blessé par cet effet.	
 GLOBAL_KEYWORD_QUEST	Quête	
 GLOBAL_KEYWORD_QUEST_TEXT	Débute dans votre main. Terminez-la pour obtenir une récompense.	
 GLOBAL_KEYWORD_RECRUIT	Appeler	
 GLOBAL_KEYWORD_RECRUIT_TEXT	Invoque un serviteur de votre deck.	
+GLOBAL_KEYWORD_RUSH	Ruée	
+GLOBAL_KEYWORD_RUSH_TEXT	Peut attaquer les serviteurs immédiatement.	
 GLOBAL_KEYWORD_SECRET	Secret	
 GLOBAL_KEYWORD_SECRET_TEXT	Inconnu jusqu’à ce qu’une action spécifique se produise pendant le tour de votre adversaire.	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	Se transforme en un nouveau serviteur au début de votre tour.	
+GLOBAL_KEYWORD_SHIFTING_SPELL_TEXT	Se transforme en un nouveau sort au début de votre tour.	
 GLOBAL_KEYWORD_SHIFTING_TEXT	Se transforme en une nouvelle carte au début de votre tour.	
 GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	Se transforme en une nouvelle arme au début de votre tour.	
 GLOBAL_KEYWORD_SILENCE	Silence	
@@ -405,9 +426,11 @@ GLOBAL_KEYWORD_SPAREPART_TEXT	Les Pièces détachées sont des sorts à faibles 
 GLOBAL_KEYWORD_SPELLPOWER	Dégâts des sorts	
 GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	Vos sorts infligent des dégâts supplémentaires.	
 GLOBAL_KEYWORD_SPELLPOWER_TEXT	Vos cartes de sort infligent {0} |4(point,points) de dégâts supplémentaires.	0=amount of spell damage
+GLOBAL_KEYWORD_START_OF_GAME	Début de partie	
+GLOBAL_KEYWORD_START_OF_GAME_TEXT	Fait quelque chose avant le premier tour.	
 GLOBAL_KEYWORD_STEALTH	Camouflage	
-GLOBAL_KEYWORD_STEALTH_REF_TEXT	Ne peut pas être attaqué ou visé jusqu’à ce qu’il inflige des dégâts.	
-GLOBAL_KEYWORD_STEALTH_TEXT	Ne peut pas être attaqué ou visé jusqu’à ce qu’il inflige des dégâts.	
+GLOBAL_KEYWORD_STEALTH_REF_TEXT	Ne peut pas être attaqué ou visé jusqu’à ce qu’il attaque.	
+GLOBAL_KEYWORD_STEALTH_TEXT	Ne peut pas être attaqué ou visé jusqu’à ce qu’il attaque.	
 GLOBAL_KEYWORD_TAUNT	Provocation	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	Les adversaires doivent attaquer les serviteurs ayant Provocation.	
 GLOBAL_KEYWORD_TAUNT_TEXT	Les adversaires doivent attaquer ce serviteur.	
@@ -517,6 +540,8 @@ GLOBAL_OPTIONS_MISCELLANEOUS_LABEL	Divers
 GLOBAL_OPTIONS_NEARBY_PLAYERS	Activer le mode Défier les joueurs proches - Liste de contacts	
 GLOBAL_OPTIONS_PREFERENCES_LABEL	Préférences	
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Discussion publique	
+GLOBAL_OPTIONS_RESTORE_PURCHASES	Retrouver des achats	
+GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	Vous ne retrouvez pas un achat_? Vérifiez que vous êtes connecté au bon compte.	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	Sons en arrière-plan	
 GLOBAL_OPTIONS_SOUND_LABEL	Son	
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Volume principal	
@@ -539,11 +564,13 @@ GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_QUIT	Quitter	
+GLOBAL_RACE_ALL	Tout	
 GLOBAL_RACE_BLOODELF	Elfe de sang	
 GLOBAL_RACE_DEMON	Démon	
 GLOBAL_RACE_DRAENEI	Draeneï	
 GLOBAL_RACE_DRAGON	Dragon	
 GLOBAL_RACE_DWARF	Nain	
+GLOBAL_RACE_EGG	Œuf	
 GLOBAL_RACE_ELEMENTAL	Élémentaire	
 GLOBAL_RACE_GNOME	Gnome	
 GLOBAL_RACE_GOBLIN	Gobelin	
@@ -584,6 +611,10 @@ GLOBAL_REGION_ASIA	Asie
 GLOBAL_REGION_CHINA	Chine	
 GLOBAL_REGION_EUROPE	Europe	
 GLOBAL_REMAINING_DATETIME	{0} |4(restant,restants)	0=time string
+GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	Ne manquez pas votre dos de carte !	Big red alert text to remind players about the new change
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	À partir de ce mois-ci, vous devez remporter 5 matchs en Partie classée pour obtenir le dos de carte de la saison.	Explains the new way to get the season card back
+GLOBAL_REMINDER_CHEST_QUESTION_MARK	?	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
+GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	Gagnez 5 matchs pour obtenir votre coffre de saison.	
 GLOBAL_RESTART	Recommencer	
 GLOBAL_RESUME_GAME	Reprendre	
 GLOBAL_RETRY	Réessayer	
@@ -595,6 +626,7 @@ GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Concurrent	a label that shows up in the Arena
 GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Admission gratuite !	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	Arène	
 GLOBAL_REWARD_ARENA_TICKET_TITLE	Arène	
+GLOBAL_REWARD_BONUS_CHALLENGE_HEADLINE	Défi ultime débloqué	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(paquet a été ajouté,paquets ont été ajoutés) à votre compte en dehors du jeu.	0=count
 GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	Votre achat sur Internet de {0}_|4(paquet,paquets) sera bientôt disponible_!	0=count
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	Paquet obtenu !	
@@ -620,6 +652,8 @@ GLOBAL_REWARD_CHEST_TIER3	Coffre de gardien
 GLOBAL_REWARD_CHEST_TIER3_EARNED	Vous avez obtenu le coffre de gardien.	
 GLOBAL_REWARD_CHEST_TIER4	Cantine de porte-bouclier	
 GLOBAL_REWARD_CHEST_TIER4_EARNED	Vous avez obtenu la cantine de porte-bouclier.	
+GLOBAL_REWARD_CHEST_TIER5	Caisse de poulet furieux	
+GLOBAL_REWARD_CHEST_TIER5_EARNED	Vous avez obtenu la caisse de poulet furieux !	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} et {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Défi de classe débloqué,Défis de classe débloqués)	
@@ -638,9 +672,11 @@ GLOBAL_REWARD_HERO_DETAILS	{0}/{1} héros débloqués
 GLOBAL_REWARD_HERO_HEADLINE	{0} débloqué	
 GLOBAL_REWARD_HERO_SOURCE	Débloqué en gagnant contre un {0}	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	Carte Hearthstone	
+GLOBAL_REWARD_PROGRESS	Victoires : {0}/{1}	0=current wins,1=required wins
 GLOBAL_SCAN	Chercher	
 GLOBAL_SCREENSHOT_COMPLETE	Capture d’écran enregistrée sur le bureau	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Capture d’écran enregistrée dans le répertoire {0}	0=The directory that the file was saved to
+GLOBAL_SEASON_CHEST_BANNER	Coffre de saison	Default label for the banner in the end game screen that is placed above the in progress chest
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	Vos étoiles bonus vous permettent de passer	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	Votre rang de la saison passée vous octroie	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(Étoile,Étoiles) bonus	
@@ -664,6 +700,9 @@ GLOBAL_SKIP	Passer
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> vient de terminer une série de matchs dans l’Arène. ({2} - {3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> vient de commencer une série de matchs dans l’Arène.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> vient de commencer une série en Arène avec déjà {2} victoires !	0=name color,1=player name,2=Arena Wins
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color> vient de terminer une série de matchs du Colisée. ({2} - {3})	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> vient de commencer une série de matchs du Colisée.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</color> vient de commencer une série de matchs du Colisée avec déjà {2}_victoires_!	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> est maintenant Druide niveau {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> vient d’atteindre le rang {2} !	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color> vient d’atteindre le rang {2} en mode Libre !	0=name color,1=player name,2=medal rank

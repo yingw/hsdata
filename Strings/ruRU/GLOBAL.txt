@@ -30,6 +30,7 @@ GLOBAL_BACK	Назад
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Это золото выдано в качестве компенсации за предыдущие покупки. Спасибо!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Компенсация	
+GLOBAL_BRAWLISEUM	Потасовочный цех	
 GLOBAL_BUTTON_AWESOME	Ура!	
 GLOBAL_BUTTON_NEXT	Далее	
 GLOBAL_BUTTON_NO	Нет	
@@ -45,6 +46,9 @@ GLOBAL_CARD_SET_GANGS	Злачный город Прибамбасск
 GLOBAL_CARD_SET_GANGS_RESERVE	В банде	
 GLOBAL_CARD_SET_GANGS_SEARCHABLE_SHORTHAND_NAMES	прибамбасск гаджетзан гаджезан мсг мсог	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_GANGS_SHORT	Прибамбасск	
+GLOBAL_CARD_SET_GILNEAS	Ведьмин лес	
+GLOBAL_CARD_SET_GILNEAS_SEARCHABLE_SHORTHAND_NAMES	вл	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_GILNEAS_SHORT	Ведьмин лес	
 GLOBAL_CARD_SET_GVG	Гоблины и гномы	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	ГиГ	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_HOF	Зал славы	
@@ -116,6 +120,8 @@ GLOBAL_DATETIME_AFK_MINUTES	Отсутствует {0} мин.
 GLOBAL_DATETIME_AFK_MONTH	Отсутствует более месяца	
 GLOBAL_DATETIME_AFK_SECONDS	Отсутствует менее минуты	
 GLOBAL_DATETIME_AFK_WEEKS	Отсутствует {0} нед.	
+GLOBAL_DATETIME_COMING_SOON	Скоро	
+GLOBAL_DATETIME_COMING_SOON_WEEKS	Откроется через\n{0} |4(неделю,недели,недель)	
 GLOBAL_DATETIME_FRIENDREQUEST_DAY	вчера	
 GLOBAL_DATETIME_FRIENDREQUEST_DAYS	{0} дн. назад	
 GLOBAL_DATETIME_FRIENDREQUEST_HOURS	{0} ч. назад	
@@ -145,6 +151,15 @@ GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0} мин.
 GLOBAL_DATETIME_SPLASHSCREEN_MONTH	> 1 мес.	
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 мин.	
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} нед.	
+GLOBAL_DATETIME_UNLOCKS_SOON_WEEKS	Станет доступным через {0} |4(неделю,недели,недель)	
+GLOBAL_DECK_SHARE_ACCEPT_REQUEST	Поделиться	
+GLOBAL_DECK_SHARE_DECLINE_REQUEST	Ни за что!	
+GLOBAL_DECK_SHARE_ERROR	Произошла ошибка при попытке поделиться колодами.	
+GLOBAL_DECK_SHARE_HEADER	Поделиться колодами?	
+GLOBAL_DECK_SHARE_REQUEST_CANCELED	{0} больше не просит вас поделиться колодами.	0=friend name
+GLOBAL_DECK_SHARE_REQUEST_DECLINED	{0} не хочет делиться с вами колодами.	0=friend name
+GLOBAL_DECK_SHARE_REQUEST_WAITING_RESPONSE	Ждем, пока {0} ответит на ваш запрос поделиться колодами.	
+GLOBAL_DECK_SHARE_REQUESTED	{0} хочет скопировать одну из ваших колод.	0=friend name
 GLOBAL_DEFAULT_ALERT_HEADER	Внимание!	
 GLOBAL_DEMO_COMPLETE_BODY	Спасибо за использование демо-версии Hearthstone: Heroes of Warcraft!	
 GLOBAL_DEMO_COMPLETE_HEADER	Поздравляем!	
@@ -276,7 +291,7 @@ GLOBAL_FRIENDLIST_REMOVE_FRIEND_ALERT_MESSAGE	Вы действительно х
 GLOBAL_FRIENDLIST_REMOVE_FRIEND_BUTTON	Удалить	
 GLOBAL_FRIENDLIST_REQUEST_SENT_TIME	Получен: {0}	0=one of the GLOBAL_DATETIME_ELAPSED_ strings
 GLOBAL_FRIENDLIST_REQUESTS_HEADER	Запросы на дружбу – {0}	0=number of received friend requests
-GLOBAL_FRIENDLIST_SPECTATE_MENU_DESCRIPTION	Игроков в игре: {0}	0=player name
+GLOBAL_FRIENDLIST_SPECTATE_MENU_DESCRIPTION	В игре: {0}	0=player name
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_HEADER	Присоединиться в качестве зрителя	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT	Щелкните здесь, чтобы присоединиться к матчу этого игрока в качестве зрителя.	
 GLOBAL_FRIENDLIST_SPECTATE_TOOLTIP_AVAILABLE_TEXT_TOUCH	Нажмите здесь, чтобы присоединиться к матчу этого игрока в качестве зрителя.	
@@ -330,6 +345,7 @@ GLOBAL_HERO_WINS_PAST_MAX_PHONE	Побед\n{0}	0=number of games this class has
 GLOBAL_HERO_WINS_PHONE	Побед:\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	Героическая потасовка	
 GLOBAL_HIDE	Скрыть	
+GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	Выиграйте еще {0} |4(матч,матча,матчей), чтобы получить сезонный сундук!\n(станет доступно в следующем месяце)	
 GLOBAL_JOIN	Присоединиться	
 GLOBAL_KEYWORD_ADAPT	Адаптация	
 GLOBAL_KEYWORD_ADAPT_TEXT	Выберите один из 3 бонусов.	
@@ -356,6 +372,8 @@ GLOBAL_KEYWORD_DISCOVER_TEXT	Выберите одну из трех карт и
 GLOBAL_KEYWORD_DIVINE_SHIELD	Божественный щит	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Когда защищенное щитом существо первый раз получает урон, он не засчитывается.	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	Когда существо первый раз получает урон, он не засчитывается.	
+GLOBAL_KEYWORD_ECHO	Эхо	
+GLOBAL_KEYWORD_ECHO_TEXT	Можно разыгрывать несколько раз за один ход.	
 GLOBAL_KEYWORD_ENRAGED	Исступление	
 GLOBAL_KEYWORD_ENRAGED_TEXT	Пока у этого существа неполное здоровье, оно обладает новой способностью.	
 GLOBAL_KEYWORD_FREEZE	Заморозка	
@@ -386,16 +404,19 @@ GLOBAL_KEYWORD_OVERLOAD	Перегрузка: Х
 GLOBAL_KEYWORD_OVERLOAD_REF_TEXT	Карты с «Перегрузкой» ограничивают ваш запас маны на следующем ходу.	
 GLOBAL_KEYWORD_OVERLOAD_TEXT	На следующем ходу у вас будет на X ед. меньше маны.	
 GLOBAL_KEYWORD_PASSIVE	Пассивный эффект	
-GLOBAL_KEYWORD_PASSIVE_TEXT	Постоянный эффект во время текущего похода в подземелье.	
+GLOBAL_KEYWORD_PASSIVE_TEXT	Постоянный эффект на время текущего похода.	
 GLOBAL_KEYWORD_POISONOUS	Яд	
 GLOBAL_KEYWORD_POISONOUS_TEXT	Уничтожает любое существо, которому наносит урон.	
 GLOBAL_KEYWORD_QUEST	Задача	
 GLOBAL_KEYWORD_QUEST_TEXT	Находится у вас в руке в начале игры. Выполните задачу, чтобы получить награду.	
 GLOBAL_KEYWORD_RECRUIT	Вербовка	
 GLOBAL_KEYWORD_RECRUIT_TEXT	Призывает существо из вашей колоды.	
+GLOBAL_KEYWORD_RUSH	Натиск	
+GLOBAL_KEYWORD_RUSH_TEXT	Может атаковать существ сразу после выхода на поле боя.	
 GLOBAL_KEYWORD_SECRET	Секрет	
 GLOBAL_KEYWORD_SECRET_TEXT	Скрытый эффект, срабатывающий, когда во время хода противника выполняется определенное действие.	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	В начале вашего хода превращается в случайное существо.	
+GLOBAL_KEYWORD_SHIFTING_SPELL_TEXT	В начале вашего хода превращается в случайную карту заклинания.	
 GLOBAL_KEYWORD_SHIFTING_TEXT	В начале вашего хода превращается в случайную карту.	
 GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	В начале вашего хода превращается в случайное оружие.	
 GLOBAL_KEYWORD_SILENCE	Немота	
@@ -405,9 +426,11 @@ GLOBAL_KEYWORD_SPAREPART_TEXT	Запасные части являются за�
 GLOBAL_KEYWORD_SPELLPOWER	Урон от заклинаний	
 GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	Ваши заклинания наносят дополнительный урон.	
 GLOBAL_KEYWORD_SPELLPOWER_TEXT	Ваши заклинания наносят на {0} ед. больше урона.	0=amount of spell damage
+GLOBAL_KEYWORD_START_OF_GAME	Начало матча	
+GLOBAL_KEYWORD_START_OF_GAME_TEXT	Делает что-то до первого хода.	
 GLOBAL_KEYWORD_STEALTH	Маскировка	
-GLOBAL_KEYWORD_STEALTH_REF_TEXT	Это существо нельзя атаковать или выбрать целью, пока оно не нанесет урон.	
-GLOBAL_KEYWORD_STEALTH_TEXT	Это существо нельзя атаковать или выбрать целью, пока оно не нанесет урон.	
+GLOBAL_KEYWORD_STEALTH_REF_TEXT	Это существо нельзя атаковать или выбрать целью, пока оно не атакует.	
+GLOBAL_KEYWORD_STEALTH_TEXT	Это существо нельзя атаковать или выбрать целью, пока оно не атакует.	
 GLOBAL_KEYWORD_TAUNT	Провокация	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	Вынуждает противников атаковать существо со способностью «Провокация».	
 GLOBAL_KEYWORD_TAUNT_TEXT	Противники вынуждены атаковать это существо.	
@@ -517,6 +540,8 @@ GLOBAL_OPTIONS_MISCELLANEOUS_LABEL	Разное
 GLOBAL_OPTIONS_NEARBY_PLAYERS	Возможность бросать вызов игрокам рядом с вами – список друзей	
 GLOBAL_OPTIONS_PREFERENCES_LABEL	Параметры	
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Общий чат	
+GLOBAL_OPTIONS_RESTORE_PURCHASES	Восстановить покупки	
+GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	Не находите своих покупок? Убедитесь, что ввели данные верной учетной записи.	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	Фоновый режим	
 GLOBAL_OPTIONS_SOUND_LABEL	Звук	
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Общая громкость	
@@ -539,11 +564,13 @@ GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_QUIT	Выход	
+GLOBAL_RACE_ALL	Все	
 GLOBAL_RACE_BLOODELF	Эльф крови	
 GLOBAL_RACE_DEMON	Демон	
 GLOBAL_RACE_DRAENEI	Дреней	
 GLOBAL_RACE_DRAGON	Дракон	
 GLOBAL_RACE_DWARF	Дворф	
+GLOBAL_RACE_EGG	Яйцо	
 GLOBAL_RACE_ELEMENTAL	Элементаль	
 GLOBAL_RACE_GNOME	Гном	
 GLOBAL_RACE_GOBLIN	Гоблин	
@@ -584,6 +611,10 @@ GLOBAL_REGION_ASIA	Азия
 GLOBAL_REGION_CHINA	Китай	
 GLOBAL_REGION_EUROPE	Европа	
 GLOBAL_REMAINING_DATETIME	Осталось {0}	0=time string
+GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	Не упустите новую рубашку для карт!	Big red alert text to remind players about the new change
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	Начиная с этого месяца, вам нужно выиграть 5 рейтинговых матчей, чтобы получить рубашку текущего сезона.	Explains the new way to get the season card back
+GLOBAL_REMINDER_CHEST_QUESTION_MARK	?	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
+GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	Выиграйте 5 матчей и получите сезонный сундук!	
 GLOBAL_RESTART	Переиграть	
 GLOBAL_RESUME_GAME	Вернуться	
 GLOBAL_RETRY	Повторить попытку	
@@ -595,6 +626,7 @@ GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Участник	a label that shows up in the
 GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Пропуск на Арену!	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	Арена	
 GLOBAL_REWARD_ARENA_TICKET_TITLE	Арена	
+GLOBAL_REWARD_BONUS_CHALLENGE_HEADLINE	Открыто последнее испытание	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	Вы получили {0} |4(комплект,комплекта,комплектов) карт.	0=count
 GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	Вы сможете воспользоваться вашей электронной покупкой в виде {0} |4(комплекта,комплектов,комплектов) через некоторое время!	0=count
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	Награда: комплект карт!	
@@ -620,6 +652,8 @@ GLOBAL_REWARD_CHEST_TIER3	Сундук стража
 GLOBAL_REWARD_CHEST_TIER3_EARNED	Вы получили сундук стража!	
 GLOBAL_REWARD_CHEST_TIER4	Сундучок щитоносца	
 GLOBAL_REWARD_CHEST_TIER4_EARNED	Вы получили сундучок щитоносца!	
+GLOBAL_REWARD_CHEST_TIER5	Ящик злой курицы	
+GLOBAL_REWARD_CHEST_TIER5_EARNED	Вы получили ящик злой курицы!	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} и {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	Доступно: |4(новое классовоe испытание,новые классовые испытания,новые классовые испытания)	
@@ -638,9 +672,11 @@ GLOBAL_REWARD_HERO_DETAILS	Открыто героев: {0}/{1}
 GLOBAL_REWARD_HERO_HEADLINE	Открыто: {0}	
 GLOBAL_REWARD_HERO_SOURCE	Открыто за победу над классом «{0}»	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	Транспорт: карта Hearthstone	
+GLOBAL_REWARD_PROGRESS	Побед: {0}/{1}	0=current wins,1=required wins
 GLOBAL_SCAN	Поиск	
 GLOBAL_SCREENSHOT_COMPLETE	Снимок экрана сохранен на рабочий стол.	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Скриншот сохранен в {0}.	0=The directory that the file was saved to
+GLOBAL_SEASON_CHEST_BANNER	Сезонный сундук	Default label for the banner in the end game screen that is placed above the in progress chest
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	Дополнительные звезды увеличивают ваш ранг до:	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	Награда за ранг предыдущего сезона:	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(дополнительная звезда,дополнительные звезды,дополнительных звезд)	
@@ -664,6 +700,9 @@ GLOBAL_SKIP	Пропустить
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> заканчивает выступление на Арене со счетом ({2}-{3}).	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> начинает выступление на Арене.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> начинает сражение на арене, имея за плечами уже {2} |4(победу,победы,побед)!	0=name color,1=player name,2=Arena Wins
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color> заканчивает «Потасовочный цех» со счетом {2}-{3}.	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> заходит в «Потасовочный цех».	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</color> заходит в «Потасовочный цех», имея за плечами {2} |4(победу,победы,побед)!	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> получает {2} уровень друидом.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	Игрок <color=#{0}>{1}</color> достиг ранга «{2}»!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	Игрок <color=#{0}>{1}</color> достиг ранга {2} в вольном формате!	0=name color,1=player name,2=medal rank

@@ -30,6 +30,7 @@ GLOBAL_BACK	Voltar
 GLOBAL_BASIC_DECK_NAME	{0}	0=class name
 GLOBAL_BETA_REIMBURSEMENT_DETAILS	Este ouro serve como crédito por suas compras passadas. Obrigado!	
 GLOBAL_BETA_REIMBURSEMENT_HEADLINE	Crédito de limpeza de conta	
+GLOBAL_BRAWLISEUM	Coliseu da Contenda	
 GLOBAL_BUTTON_AWESOME	Incrível!	
 GLOBAL_BUTTON_NEXT	Próximo	
 GLOBAL_BUTTON_NO	Não	
@@ -45,6 +46,9 @@ GLOBAL_CARD_SET_GANGS	Gangues de Geringontzan
 GLOBAL_CARD_SET_GANGS_RESERVE	Reserva das Gangues	
 GLOBAL_CARD_SET_GANGS_SEARCHABLE_SHORTHAND_NAMES	gdg agdg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_GANGS_SHORT	Geringontzan	
+GLOBAL_CARD_SET_GILNEAS	Bosque das Bruxas	
+GLOBAL_CARD_SET_GILNEAS_SEARCHABLE_SHORTHAND_NAMES	bb	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
+GLOBAL_CARD_SET_GILNEAS_SHORT	Bosque das Bruxas	
 GLOBAL_CARD_SET_GVG	Goblins x Gnomos	
 GLOBAL_CARD_SET_GVG_SEARCHABLE_SHORTHAND_NAMES	gvg	This is a space-separated list indicating all of the allowable search keywords that can be used in Collection Manager screen's text-search feature to narrow down the cards to this specific Card Set via shorthand names (note: the full name above is also used for this feature). Also note: letter case is ignored.
 GLOBAL_CARD_SET_HOF	Salão da Fama	
@@ -116,6 +120,8 @@ GLOBAL_DATETIME_AFK_MINUTES	Ausente por {0} |4(minuto,minutos)
 GLOBAL_DATETIME_AFK_MONTH	Ausente por mais de um mês	
 GLOBAL_DATETIME_AFK_SECONDS	Ausente por menos de um minuto	
 GLOBAL_DATETIME_AFK_WEEKS	Ausente por {0} |4(semana,semanas) 	
+GLOBAL_DATETIME_COMING_SOON	Em Breve	
+GLOBAL_DATETIME_COMING_SOON_WEEKS	Abre em\n{0} |4(semana,semanas)	
 GLOBAL_DATETIME_FRIENDREQUEST_DAY	ontem	
 GLOBAL_DATETIME_FRIENDREQUEST_DAYS	Há {0} |4(dia,dias)	
 GLOBAL_DATETIME_FRIENDREQUEST_HOURS	Há {0} |4(hora,horas)	
@@ -145,6 +151,15 @@ GLOBAL_DATETIME_SPLASHSCREEN_MINUTES	{0} min
 GLOBAL_DATETIME_SPLASHSCREEN_MONTH	> 1 mês	
 GLOBAL_DATETIME_SPLASHSCREEN_SECONDS	< 1 min	
 GLOBAL_DATETIME_SPLASHSCREEN_WEEKS	{0} |4(semana,semanas)	
+GLOBAL_DATETIME_UNLOCKS_SOON_WEEKS	Desbloqueia em {0} |4(semana,semanas)	
+GLOBAL_DECK_SHARE_ACCEPT_REQUEST	Compartilhar	
+GLOBAL_DECK_SHARE_DECLINE_REQUEST	De Jeito Nenhum!	
+GLOBAL_DECK_SHARE_ERROR	Ocorreu um erro ao tentar compartilhar decks.	
+GLOBAL_DECK_SHARE_HEADER	Compartilhar decks?	
+GLOBAL_DECK_SHARE_REQUEST_CANCELED	{0} cancelou o pedido para compartilhar decks.	0=friend name
+GLOBAL_DECK_SHARE_REQUEST_DECLINED	{0} recusou seu pedido para compartilhar decks.	0=friend name
+GLOBAL_DECK_SHARE_REQUEST_WAITING_RESPONSE	Esperando {0} responder ao seu pedido para compartilhar decks.	
+GLOBAL_DECK_SHARE_REQUESTED	{0} quer pegar um deck seu emprestado.	0=friend name
 GLOBAL_DEFAULT_ALERT_HEADER	Alerta	
 GLOBAL_DEMO_COMPLETE_BODY	Obrigado por jogar esta demo de Hearthstone: Heroes of Warcraft!	
 GLOBAL_DEMO_COMPLETE_HEADER	Parabéns!	
@@ -330,6 +345,7 @@ GLOBAL_HERO_WINS_PAST_MAX_PHONE	Vitórias\n{0}	0=number of games this class has 
 GLOBAL_HERO_WINS_PHONE	Vitórias\n{0}/{1}	0=number of games this class has won 1=number of wins to get golden
 GLOBAL_HEROIC_BRAWL	Contenda Heroica	
 GLOBAL_HIDE	Ocultar	
+GLOBAL_IN_PROGRESS_REWARD_CHEST_INSTRUCTIONS	Vença mais {0} |4(partida,partidas) para receber o baú da temporada!\n(Desbloqueia mês que vem)	
 GLOBAL_JOIN	Entrar	
 GLOBAL_KEYWORD_ADAPT	Adapte‑se	
 GLOBAL_KEYWORD_ADAPT_TEXT	Escolha um de 3 bônus.	
@@ -356,6 +372,8 @@ GLOBAL_KEYWORD_DISCOVER_TEXT	Escolha um entre três cards para acrescentar à su
 GLOBAL_KEYWORD_DIVINE_SHIELD	Escudo Divino	
 GLOBAL_KEYWORD_DIVINE_SHIELD_REF_TEXT	Um lacaio protegido ignora dano recebido pela primeira vez.	
 GLOBAL_KEYWORD_DIVINE_SHIELD_TEXT	Na primeira vez em que este lacaio receber dano, ignore o dano.	
+GLOBAL_KEYWORD_ECHO	Eco	
+GLOBAL_KEYWORD_ECHO_TEXT	Pode ser repetido no turno em que for jogado.	
 GLOBAL_KEYWORD_ENRAGED	Enfurecer	
 GLOBAL_KEYWORD_ENRAGED_TEXT	Enquanto ferido, este lacaio ganha um novo poder.	
 GLOBAL_KEYWORD_FREEZE	Congelar	
@@ -386,16 +404,19 @@ GLOBAL_KEYWORD_OVERLOAD	Sobrecarga: X
 GLOBAL_KEYWORD_OVERLOAD_REF_TEXT	Cards com Sobrecarga limitam seu mana no próximo turno.	
 GLOBAL_KEYWORD_OVERLOAD_TEXT	Você terá X a menos de mana no próximo turno.	
 GLOBAL_KEYWORD_PASSIVE	Passivo	
-GLOBAL_KEYWORD_PASSIVE_TEXT	Efeito permanente para a sessão de masmorra atual.	
+GLOBAL_KEYWORD_PASSIVE_TEXT	Efeito permanente para a sessão atual.	
 GLOBAL_KEYWORD_POISONOUS	Venenoso	
 GLOBAL_KEYWORD_POISONOUS_TEXT	Destrua qualquer lacaio atingido por este lacaio.	
 GLOBAL_KEYWORD_QUEST	Missão	
 GLOBAL_KEYWORD_QUEST_TEXT	Começa na sua mão. Conclua para ganhar uma recompensa.	
 GLOBAL_KEYWORD_RECRUIT	Recruta	
 GLOBAL_KEYWORD_RECRUIT_TEXT	Evoque um lacaio do seu deck.	
+GLOBAL_KEYWORD_RUSH	Rapidez	
+GLOBAL_KEYWORD_RUSH_TEXT	Pode atacar lacaios imediatamente.	
 GLOBAL_KEYWORD_SECRET	Segredo	
 GLOBAL_KEYWORD_SECRET_TEXT	Oculto até ocorrer uma ação específica no turno do seu oponente.	
 GLOBAL_KEYWORD_SHIFTING_MINION_TEXT	Transforma-se em um novo lacaio no início do seu turno.	
+GLOBAL_KEYWORD_SHIFTING_SPELL_TEXT	Transforma-se em um novo feitiço no início do seu turno.	
 GLOBAL_KEYWORD_SHIFTING_TEXT	Transforma-se em um novo card no início do seu turno.	
 GLOBAL_KEYWORD_SHIFTING_WEAPON_TEXT	Transforma-se em uma nova arma no início do seu turno.	
 GLOBAL_KEYWORD_SILENCE	Silêncio	
@@ -405,9 +426,11 @@ GLOBAL_KEYWORD_SPAREPART_TEXT	Peças sobressalentes são feitiços de custo 1 de
 GLOBAL_KEYWORD_SPELLPOWER	Dano Mágico	
 GLOBAL_KEYWORD_SPELLPOWER_REF_TEXT	Seus feitiços causam dano extra.	
 GLOBAL_KEYWORD_SPELLPOWER_TEXT	Seus cards de feitiço causam {0} a mais de dano.	0=amount of spell damage
+GLOBAL_KEYWORD_START_OF_GAME	Início da Partida	
+GLOBAL_KEYWORD_START_OF_GAME_TEXT	Faz alguma coisa antes do primeiro turno.	
 GLOBAL_KEYWORD_STEALTH	Furtividade	
-GLOBAL_KEYWORD_STEALTH_REF_TEXT	Não pode ser atacado nem alvejado até causar dano.	
-GLOBAL_KEYWORD_STEALTH_TEXT	Não pode ser atacado nem alvejado até causar dano.	
+GLOBAL_KEYWORD_STEALTH_REF_TEXT	Não pode ser atacado nem alvejado até atacar.	
+GLOBAL_KEYWORD_STEALTH_TEXT	Não pode ser atacado nem alvejado até atacar.	
 GLOBAL_KEYWORD_TAUNT	Provocar	
 GLOBAL_KEYWORD_TAUNT_REF_TEXT	Os inimigos precisam atacar os lacaios que tiverem Provocar.	
 GLOBAL_KEYWORD_TAUNT_TEXT	Os inimigos precisam atacar este lacaio.	
@@ -517,6 +540,8 @@ GLOBAL_OPTIONS_MISCELLANEOUS_LABEL	Diversos
 GLOBAL_OPTIONS_NEARBY_PLAYERS	Permite desafiar jogadores próximos - Lista de amigos	
 GLOBAL_OPTIONS_PREFERENCES_LABEL	Preferências	
 GLOBAL_OPTIONS_PUBLIC_CHAT_ENABLED	Bate-papo com estranhos	
+GLOBAL_OPTIONS_RESTORE_PURCHASES	Restaurar compras	
+GLOBAL_OPTIONS_RESTORE_PURCHASES_POPUP_TEXT	Não encontra uma compra? Verifique se você está conectado à conta certa.	
 GLOBAL_OPTIONS_SOUND_IN_BACKGROUND	Som de fundo	
 GLOBAL_OPTIONS_SOUND_LABEL	Som	
 GLOBAL_OPTIONS_SOUND_MASTER_VOLUME_LABEL	Volume geral	
@@ -539,11 +564,13 @@ GLOBAL_PROGRAMNAME_STARCRAFT2	StarCraft II
 GLOBAL_PROGRAMNAME_WOW	World of Warcraft	
 GLOBAL_QUEST_PROGRESS_COUNT	{0}/{1}	0=progress,1=max progress
 GLOBAL_QUIT	Sair	
+GLOBAL_RACE_ALL	Tudo	
 GLOBAL_RACE_BLOODELF	Elfo Sangrento	
 GLOBAL_RACE_DEMON	Demônio	
 GLOBAL_RACE_DRAENEI	Draenei	
 GLOBAL_RACE_DRAGON	Dragão	
 GLOBAL_RACE_DWARF	Anão	
+GLOBAL_RACE_EGG	Ovo	
 GLOBAL_RACE_ELEMENTAL	Elemental	
 GLOBAL_RACE_GNOME	Gnomo	
 GLOBAL_RACE_GOBLIN	Goblin	
@@ -584,6 +611,10 @@ GLOBAL_REGION_ASIA	Ásia
 GLOBAL_REGION_CHINA	China	
 GLOBAL_REGION_EUROPE	Europa	
 GLOBAL_REMAINING_DATETIME	{0} restantes	0=time string
+GLOBAL_REMINDER_CARDBACK_SEASON_END_ALERT	Não perca o verso de card!	Big red alert text to remind players about the new change
+GLOBAL_REMINDER_CARDBACK_SEASON_END_DIALOG	A partir deste mês, você tem que ganhar 5 partidas ranqueadas para ganhar o verso de card da temporada.	Explains the new way to get the season card back
+GLOBAL_REMINDER_CHEST_QUESTION_MARK	?	Label for unearned chest, assuming "?" universally means unknown, it doesn't need to be localized
+GLOBAL_REMINDER_CHEST_SEASON_END_DIALOG	Vença 5 partidas para receber o Baú da Temporada.	
 GLOBAL_RESTART	Reiniciar	
 GLOBAL_RESUME_GAME	Continuar	
 GLOBAL_RETRY	Tentar novamente	
@@ -595,6 +626,7 @@ GLOBAL_REWARD_ARENA_TICKET_ENTRANT	Espectador	a label that shows up in the Arena
 GLOBAL_REWARD_ARENA_TICKET_HEADLINE	Rodada Grátis na Arena!	
 GLOBAL_REWARD_ARENA_TICKET_LABEL	Arena	
 GLOBAL_REWARD_ARENA_TICKET_TITLE	Arena	
+GLOBAL_REWARD_BONUS_CHALLENGE_HEADLINE	Desafio Final desbloqueado	
 GLOBAL_REWARD_BOOSTER_DETAILS_OUT_OF_BAND	{0} |4(pacote foi adicionado,pacotes foram adicionados) à sua conta de fora do jogo.	0=count
 GLOBAL_REWARD_BOOSTER_DETAILS_PRESALE_OUT_OF_BAND	Sua compra pela web de {0} |4(pacote,pacotes) estará disponível em breve!	0=count
 GLOBAL_REWARD_BOOSTER_HEADLINE_GENERIC	Pacote recebido!	
@@ -620,6 +652,8 @@ GLOBAL_REWARD_CHEST_TIER3	Baú do Guardião
 GLOBAL_REWARD_CHEST_TIER3_EARNED	Você ganhou o Baú do Guardião!	
 GLOBAL_REWARD_CHEST_TIER4	Caixa-forte do Carrega-escudo	
 GLOBAL_REWARD_CHEST_TIER4_EARNED	Você ganhou a Caixa-forte do Carrega-escudo!	
+GLOBAL_REWARD_CHEST_TIER5	Caixote do Frango Nervoso	
+GLOBAL_REWARD_CHEST_TIER5_EARNED	Você ganhou o Caixote do Frango Nervoso!	
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL	{0}	0=first class
 GLOBAL_REWARD_CLASS_CHALLENGE_DETAIL_DOUBLE	{0} e {1}	0=first class, 1=second class
 GLOBAL_REWARD_CLASS_CHALLENGE_HEADLINE	|4(Desafio,Desafios) de classe |4(desbloqueado,desbloqueados)	
@@ -638,9 +672,11 @@ GLOBAL_REWARD_HERO_DETAILS	{0}/{1} heróis desbloqueados
 GLOBAL_REWARD_HERO_HEADLINE	{0} desbloqueado	
 GLOBAL_REWARD_HERO_SOURCE	Desbloqueado ao derrotar um {0}	0=class
 GLOBAL_REWARD_HEROES_CARD_MOUNT_HEADLINE	Montaria de Card de Hearthstone	
+GLOBAL_REWARD_PROGRESS	Vitórias: {0}/{1}	0=current wins,1=required wins
 GLOBAL_SCAN	Buscar	
 GLOBAL_SCREENSHOT_COMPLETE	Captura de tela salva na área de trabalho	
 GLOBAL_SCREENSHOT_COMPLETE_SPECIFIC_DIRECTORY	Captura de tela salva em {0}	0=The directory that the file was saved to
+GLOBAL_SEASON_CHEST_BANNER	Baú da Temporada	Default label for the banner in the end game screen that is placed above the in progress chest
 GLOBAL_SEASON_END_BONUS_STAR_BOOST	Suas estrelas de bônus elevam você a	
 GLOBAL_SEASON_END_BONUS_STAR_TITLE	Sua posição na última temporada concedeu a você	
 GLOBAL_SEASON_END_BONUS_STARS_LABEL	|4(Estrela,Estrelas) Bônus	
@@ -664,6 +700,9 @@ GLOBAL_SKIP	Pular
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_COMPLETE	<color=#{0}>{1}</color> acabou de encerrar uma aventura na Arena. ({2}-{3})	0=name color,1=player name,2=Arena Wins,3=Arena Losses
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START	<color=#{0}>{1}</color> iniciou uma nova aventura na arena.	0=name color,1=player name
 GLOBAL_SOCIAL_TOAST_FRIEND_ARENA_START_WITH_MANY_WINS	<color=#{0}>{1}</color> iniciou uma partida na Arena com {2} vitórias!	0=name color,1=player name,2=Arena Wins
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_COMPLETE	<color=#{0}>{1}</color> acaba de terminar uma sessão no Coliseu da Contenda. ({2}-{3})	0=name color,1=player name,2=Brawl Wins,3=Brawl Losses
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START	<color=#{0}>{1}</color> iniciou uma nova sessão no Coliseu da Contenda.	0=name color,1=player name
+GLOBAL_SOCIAL_TOAST_FRIEND_BRAWLISEUM_START_WITH_MANY_WINS	<color=#{0}>{1}</color> já tem {2} vitórias e iniciou um confronto no Coliseu da Contenda!	0=name color,1=player name,2=Brawl Wins
 GLOBAL_SOCIAL_TOAST_FRIEND_DRUID_LEVEL	<color=#{0}>{1}</color> tornou-se um Druida nível {2}.	0=name color,1=player name,2=level
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK	<color=#{0}>{1}</color> alcançou o ranque {2}!	0=name color,1=player name,2=medal rank
 GLOBAL_SOCIAL_TOAST_FRIEND_GAINED_RANK_WILD	<color=#{0}>{1}</color> alcançou o ranque {2} no modo Livre!	0=name color,1=player name,2=medal rank
